@@ -1,7 +1,7 @@
 {
   "name": "card-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "card game",
   "main": "card_game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/perscholas-blended/card-game.git"
   },
-  "author": "",
+  "author": "unknown",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/perscholas-blended/card-game/issues"
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/perscholas-blended/card-game#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "keywords": [
+    "card"
+  ]
 }
